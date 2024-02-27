@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cachipún</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+
+    <h1>Cachipún Contra la Computadora</h1>
+
+    <p>Ingrese la cantidad de rondas que desea jugar:</p>
+    <input type="number" id="cantidadRondas">
+    <button onclick="comenzarJuego()">Comenzar Juego</button>
+
+    <p>Escoge una de las siguientes opciones:</p>
+
+    <button class="btnPiedra" onclick="jugar('piedra')">Piedra 🗿</button>
+
+    <button class="btnPapel" onclick="jugar('papel')">Papel 🧻</button>
+
+    <button class="btnTijera" onclick="jugar('tijeras')">Tijeras ✂️</button>
+
+    <div id="resultado"></div>
+    <div id="puntaje"></div>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
